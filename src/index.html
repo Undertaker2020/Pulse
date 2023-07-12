@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pulse</title>
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" href="css/font.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
 <body>
-    <section class="promo">
+    <section class="promo" id="up">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -70,7 +67,7 @@
                         бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/heart.png" alt="">
+                    <img src="icons/advantages/heart.png" alt="" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему
                         здоровью и были в радость Вам и Вашим близким!</div>
@@ -436,50 +433,42 @@
     <section class="feed">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="feed__item">
+            <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed_1.png" alt="Ирина Иванченко" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Ирина Иванченко</div>
                     <div class="feed__count">2 полумарафона</div>
-                    <div class="feed__descr">Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали
-                        пульсометр, который подошёл именно под мои цели и финансовые возможности.
-                        Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.
-                        <br><br>
-                        Новые цели - новый гаджет!
-                        <br><br>
-                        Спасибо, RunSmart!
+                    <div class="feed__descr">Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.
+                    Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.
+                    <br><br>
+                    Новые цели - новый гаджет!
+                    <br><br>  
+                    Спасибо, RunSmart! 
                     </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed_2.png" alt="Иван Сёмочкин" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Иван Сёмочкин</div>
                     <div class="feed__count">1 полумарафон</div>
-                    <div class="feed__descr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе
-                        делал.
-                        Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку,
-                        научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок
-                        на месяц вперёд.
-                        <br><br>
-                        С ними подготовился к своему первому полумарафону! Спасибо!!!
+                    <div class="feed__descr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. 
+                    Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.
+                    <br><br> 
+                    С ними подготовился к своему первому полумарафону! Спасибо!!!
                     </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed_3.png" alt="Юлия Дашкина" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Юлия Дашкина</div>
                     <div class="feed__count">2 полумарафона</div>
-                    <div class="feed__descr">Долго не могла начать бегать, т.к. до этого несколько раз начинала, но
-                        становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и
-                        решила попробовать.
-                        <br><br>
-                        Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой!
-                        Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких
-                        забегов и не намерена останавливаться!
-                        <br><br>
-                        Спасибо!!!
+                    <div class="feed__descr">Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать.
+                    <br><br> 
+                    Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не намерена останавливаться!
+                    <br><br> 
+                    Спасибо!!!
                     </div>
                 </div>
             </div>
@@ -520,7 +509,7 @@
             <div class="modal__desrc">Пульсометр Polar FT1</div>
             <form action="#" class="feed-form feed-form-mt25">
                 <input name="name" type="text" placeholder="Ваше имя">
-                <input name="phone" required" placeholder="Ваш телефон">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" required type="email" placeholder="Ваш E-mail">
                 <button class="button button_submit">Купить</button>
             </form>
@@ -533,11 +522,13 @@
             
         </div>
     </div>
+    <a href="#up"><img src="icons/up.svg" alt="up" class="page-up"></a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
